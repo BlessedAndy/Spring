@@ -1,0 +1,12 @@
+Spring3.0 new features:
+摘自spring官方文档2.5节
+
+1：Spring Expression Language
+2：IoC enhancements/Java based bean metadata
+3：General-purpose type conversion system and field formatting system
+4：Object to XML mapping functionality(OXM) moved from Spring WebServices project
+5：Comprehensive REST support
+6：@MVC additions
+7：Declarative model validation
+8：Early support for JavaEE6
+9：Embedded database support
