@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+<!-- 解决中文乱码问题的一种方法 ,但是在一些版本中不起作用（v2.1.6） ，这个配置可以在struts的default.properties中找到-->
+<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<package name="registration" extends="struts-default">
+
+		<action name="u" class="com.bjsxt.registration.action.UserAction">
+
+			<result name="success">/registerSuccess.jsp</result>
+			<result name="fail">/registerFail.jsp</result>
+			<result name="list">/userlist.jsp</result>
+			<result name="load">/user.jsp</result>
+
+		</action>
+	</package>
+
+
+</struts>
+	
